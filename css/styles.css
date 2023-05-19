@@ -50,7 +50,7 @@ h3 {
 /* header */
 .first-nav {
     display: flex;
-    
+    align-items: center;
 }
 .main-nav {
     display: flex;
@@ -152,7 +152,7 @@ ul#auth-nav li {
 .logo-header {
     padding: 0;
     margin: 0;
-    margin-top: 24px;
+    
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
@@ -214,10 +214,11 @@ ul#auth-nav li {
     display: flex;
     width: calc((100% - 72px) / 4);
     display: flex;
-    gap: 24px;
-    
+    gap: 24px;   
 }
-
+.advantage-item {
+    width: calc((100% - 72px) / 4);
+}
 
 .main-adv {
     letter-spacing: 0.02em;
@@ -289,14 +290,18 @@ ul#auth-nav li {
 .logo-footer {
     color: var(--back-dark-color);
     letter-spacing: 0.03em;
-    margin-bottom: 16px;
-    display: inline-block;
+
 }
 .footer-text {
     color: var(--back-dark-color);
     width: 264px;
     letter-spacing: 0.02em;
 }
+.footer .logo {
+    margin-bottom: 16px;
+    display: inline-block;
+}
+
 /* Портфолио */
 .main-portfolio {
     padding: 96px 0 120px;
@@ -340,6 +345,12 @@ ul#auth-nav li {
     width: calc(100% - 48px) / 3; 
     
 }
+.activ-descr {
+    padding: 32px 16px;
+    border: 1px solid var(--border-header-color);
+    border-top: none;
+}
+
 .brand {
     font-weight: 500;
     font-size: 20px;

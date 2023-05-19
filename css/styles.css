@@ -336,9 +336,8 @@ ul#auth-nav li {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    padding: 96px 0 120px;
     column-gap: 24px;
-    row-gap: 48px
+    row-gap: 48px;
 }
 .activities-type {
     text-decoration: none;  

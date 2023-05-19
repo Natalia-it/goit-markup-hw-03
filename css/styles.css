@@ -173,7 +173,7 @@ ul#auth-nav li {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    width: 496px;
+    max-width: 496px;
     margin-bottom: 48px;
     text-align: center;
     margin: 0 auto;
@@ -195,7 +195,7 @@ ul#auth-nav li {
     line-height: 1.5;
     letter-spacing: 0.04em;
     margin-bottom: 188px;
-
+    margin: 0 auto;
     display: block; 
     border: none;
 }
@@ -212,12 +212,11 @@ ul#auth-nav li {
 .advantage {
     width: 264px;
     display: flex;
-    width: calc((100% - 72px) / 4)
+    width: calc((100% - 72px) / 4);
     display: flex;
     gap: 24px;
     
 }
-
 
 
 .main-adv {
@@ -228,6 +227,7 @@ ul#auth-nav li {
     letter-spacing: 0.02em;
     line-height: 1.5;
     width: 264px;
+    text-align: center;
 }
 .advantage-page {
     padding: 120px 0; 
@@ -243,7 +243,9 @@ ul#auth-nav li {
     margin-bottom: 72px;
 }
 .main-team {
-    letter-spacing: 0.02em; 
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 8px; 
 }
 .work-team {
     background-color: var(--back-dark-color);
@@ -263,6 +265,9 @@ ul#auth-nav li {
     width: 264px;
     height: 380px;
     text-align: center;    
+}
+.team-descr {
+    padding: 32px 16px;
 }
 .work-page {
     padding-bottom: 120px;

@@ -175,9 +175,11 @@ ul#auth-nav li {
     line-height: 1.07;
     letter-spacing: 0.02em;
     max-width: 496px;
-    margin-bottom: 48px;
+    
     text-align: center;
-    margin: 48px auto;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-button {
@@ -298,8 +300,12 @@ ul#auth-nav li {
     color: var(--back-dark-color);
     width: 264px;
     letter-spacing: 0.02em;
+    line-height: 24px;
 }
-.footer .logo {}
+.footer .logo {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 
 /* Портфолио */
 .main-portfolio {
@@ -335,7 +341,7 @@ ul#auth-nav li {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    padding: 96px 0 120px;
+    
     column-gap: 24px;
     row-gap: 48px
 }
@@ -370,5 +376,5 @@ ul#auth-nav li {
     display: flex;
     gap: 24px;
     justify-content: center;
-    margin-bottom: 72px 
+    margin-bottom: 72px;
 }
